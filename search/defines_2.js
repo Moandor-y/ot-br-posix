@@ -31,7 +31,5 @@ var searchData=
   ['ot_5furi_5fpath_5frelay_5ftx',['OT_URI_PATH_RELAY_TX',['../d6/d8f/uris_8hpp.html#a63ed09fac78928b599e96795f0db7836',1,'uris.hpp']]],
   ['ot_5furi_5fpath_5fserver_5fdata',['OT_URI_PATH_SERVER_DATA',['../d6/d8f/uris_8hpp.html#a66bbbd83f8489a99d4325021981379cf',1,'uris.hpp']]],
   ['otbr_5faligned',['OTBR_ALIGNED',['../da/d7b/code__utils_8hpp.html#a3c4a82c0020317f9f2ffcfebcb6a3712',1,'code_utils.hpp']]],
-  ['otbr_5ftool_5fpacked_5fbegin',['OTBR_TOOL_PACKED_BEGIN',['../da/d7b/code__utils_8hpp.html#a98ee82c285cd004bd3aee3a77517966c',1,'code_utils.hpp']]],
-  ['otbr_5ftool_5fpacked_5fend',['OTBR_TOOL_PACKED_END',['../da/d7b/code__utils_8hpp.html#a168b1e7ae31a5e1ae392c97065a54be6',1,'code_utils.hpp']]],
   ['otbrlogresult',['otbrLogResult',['../d0/da9/logging_8hpp.html#a8de3dbe15c57a9fb48c735835b20d939',1,'logging.hpp']]]
 ];

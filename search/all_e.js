@@ -85,8 +85,6 @@ var searchData=
   ['otbr_5ferror_5fparse',['OTBR_ERROR_PARSE',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa0a895d978d38f0119e8fe1b6af0b70e3',1,'types.hpp']]],
   ['otbr_5ferror_5frest',['OTBR_ERROR_REST',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa6437b6d6df8dc554b4283823cd9844c2',1,'types.hpp']]],
   ['otbr_5ferror_5fsmcroute',['OTBR_ERROR_SMCROUTE',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa85e2380516117c5003e635f66339092e',1,'types.hpp']]],
-  ['otbr_5ftool_5fpacked_5fbegin',['OTBR_TOOL_PACKED_BEGIN',['../da/d7b/code__utils_8hpp.html#a98ee82c285cd004bd3aee3a77517966c',1,'code_utils.hpp']]],
-  ['otbr_5ftool_5fpacked_5fend',['OTBR_TOOL_PACKED_END',['../da/d7b/code__utils_8hpp.html#a168b1e7ae31a5e1ae392c97065a54be6',1,'code_utils.hpp']]],
   ['otbrdump',['otbrDump',['../d0/da9/logging_8hpp.html#a4e9b1ae7e5d59c205377bd96221c9ea9',1,'logging.cpp']]],
   ['otbrerror',['otbrError',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa',1,'types.hpp']]],
   ['otbrerrorstring',['otbrErrorString',['../d0/da9/logging_8hpp.html#ada4d1801b5705ba2b957fd1802b8a984',1,'logging.cpp']]],
