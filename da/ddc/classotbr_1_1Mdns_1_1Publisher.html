@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.2.0-3d6ce34</span>
+   &#160;<span id="projectnumber">0.2.0-65c213c</span>
    </div>
   </td>
  </tr>
@@ -68,6 +68,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../de/de8/classotbr_1_1Mdns_1_1Publisher-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otbr::Mdns::Publisher Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="../../d5/d1f/group__border-router-mdns.html">Border-router-mdns</a></div></div>  </div>
@@ -102,9 +104,17 @@ typedef std::vector&lt; <a class="el" href="../../d0/dee/structotbr_1_1Mdns_1_1P
 <tr class="separator:a82b48b525850f59986482f05949881dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606c109ff3092857eae8a7db0a199d11"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a606c109ff3092857eae8a7db0a199d11">StateHandler</a>) (void *aContext, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a33836f14c4f81a2487616acc08296fa4">State</a> aState)</td></tr>
 <tr class="separator:a606c109ff3092857eae8a7db0a199d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c302643f9b2f3c28509a68b025ebc2"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a58c302643f9b2f3c28509a68b025ebc2">PublishServiceHandler</a>) (const char *aName, const char *aType, <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> aError, void *aContext)</td></tr>
+<tr class="separator:a58c302643f9b2f3c28509a68b025ebc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b0143769df1e0c21e6304bf9a69ef0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a63b0143769df1e0c21e6304bf9a69ef0">PublishHostHandler</a>) (const char *aName, <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> aError, void *aContext)</td></tr>
+<tr class="separator:a63b0143769df1e0c21e6304bf9a69ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9837d2cc6a4f8201d0fe69f00bbe72e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a9837d2cc6a4f8201d0fe69f00bbe72e6">SetPublishServiceHandler</a> (<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a58c302643f9b2f3c28509a68b025ebc2">PublishServiceHandler</a> aHandler, void *aContext)</td></tr>
+<tr class="separator:a9837d2cc6a4f8201d0fe69f00bbe72e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93201b8e7507597a0110cc5315112d5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a93201b8e7507597a0110cc5315112d5d">SetPublishHostHandler</a> (<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a63b0143769df1e0c21e6304bf9a69ef0">PublishHostHandler</a> aHandler, void *aContext)</td></tr>
+<tr class="separator:a93201b8e7507597a0110cc5315112d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7ec38aa3c41207981ab5779a6abfa9c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ac7ec38aa3c41207981ab5779a6abfa9c">Start</a> (void)=0</td></tr>
 <tr class="separator:ac7ec38aa3c41207981ab5779a6abfa9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb467b4e2b34bd533156005f56e0844"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#adeb467b4e2b34bd533156005f56e0844">Stop</a> (void)=0</td></tr>
@@ -130,10 +140,82 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac41f4e7c1fdc6266ef308b20e49dad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a764c8e33ecdf355a4eaf60292e9484c2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a764c8e33ecdf355a4eaf60292e9484c2">Destroy</a> (<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">Publisher</a> *aPublisher)</td></tr>
 <tr class="separator:a764c8e33ecdf355a4eaf60292e9484c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc12f5b83dfd3f1eec5c2366ddf39c7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a0dc12f5b83dfd3f1eec5c2366ddf39c7">IsServiceTypeEqual</a> (const char *aFirstType, const char *aSecondType)</td></tr>
+<tr class="separator:a0dc12f5b83dfd3f1eec5c2366ddf39c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbaef81e29bea6a262d41d901244ef7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a0dbaef81e29bea6a262d41d901244ef7">EncodeTxtData</a> (const TxtList &amp;aTxtList, uint8_t *aTxtData, uint16_t &amp;aTxtLength)</td></tr>
+<tr class="separator:a0dbaef81e29bea6a262d41d901244ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a8d576bcf7d6b2aa324357bf31c7912af"><td class="memItemLeft" align="right" valign="top"><a id="a8d576bcf7d6b2aa324357bf31c7912af"></a>enum &#160;</td><td class="memItemRight" valign="bottom">: uint8_t { <b>kMaxTextEntrySize</b> = 255
+ }</td></tr>
+<tr class="separator:a8d576bcf7d6b2aa324357bf31c7912af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4e77fa6e235690452eaec0057e4de2ef"><td class="memItemLeft" align="right" valign="top"><a id="a4e77fa6e235690452eaec0057e4de2ef"></a>
+<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a58c302643f9b2f3c28509a68b025ebc2">PublishServiceHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mServiceHandler</b> = nullptr</td></tr>
+<tr class="separator:a4e77fa6e235690452eaec0057e4de2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca27ce71b289fedb768907fc4dc2393e"><td class="memItemLeft" align="right" valign="top"><a id="aca27ce71b289fedb768907fc4dc2393e"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>mServiceHandlerContext</b> = nullptr</td></tr>
+<tr class="separator:aca27ce71b289fedb768907fc4dc2393e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada0a6b5fc9afe0016a06b91e2ea63c8"><td class="memItemLeft" align="right" valign="top"><a id="aada0a6b5fc9afe0016a06b91e2ea63c8"></a>
+<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a63b0143769df1e0c21e6304bf9a69ef0">PublishHostHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandler</b> = nullptr</td></tr>
+<tr class="separator:aada0a6b5fc9afe0016a06b91e2ea63c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f75f22ca2bbb5af3ae5a129ac7706c"><td class="memItemLeft" align="right" valign="top"><a id="a35f75f22ca2bbb5af3ae5a129ac7706c"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext</b> = nullptr</td></tr>
+<tr class="separator:a35f75f22ca2bbb5af3ae5a129ac7706c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This interface defines the functionality of MDNS service. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a63b0143769df1e0c21e6304bf9a69ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b0143769df1e0c21e6304bf9a69ef0">&#9670;&nbsp;</a></span>PublishHostHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* otbr::Mdns::Publisher::PublishHostHandler) (const char *aName, <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> aError, void *aContext)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method reports the result of a host publication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The host name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aError</td><td>An OTBR error that indicates whether the host publication succeeds. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aContext</td><td>A user context. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a58c302643f9b2f3c28509a68b025ebc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58c302643f9b2f3c28509a68b025ebc2">&#9670;&nbsp;</a></span>PublishServiceHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* otbr::Mdns::Publisher::PublishServiceHandler) (const char *aName, const char *aType, <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> aError, void *aContext)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method reports the result of a service publication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The service instance name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The service type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aError</td><td>An error that indicates whether the service publication succeeds. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aContext</td><td>A user context. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a606c109ff3092857eae8a7db0a199d11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a606c109ff3092857eae8a7db0a199d11">&#9670;&nbsp;</a></span>StateHandler</h2>
 
@@ -276,6 +358,111 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0dbaef81e29bea6a262d41d901244ef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dbaef81e29bea6a262d41d901244ef7">&#9670;&nbsp;</a></span>EncodeTxtData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> otbr::Mdns::Publisher::EncodeTxtData </td>
+          <td>(</td>
+          <td class="paramtype">const TxtList &amp;&#160;</td>
+          <td class="paramname"><em>aTxtList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>aTxtData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>aTxtLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function writes the TXT entry list to a TXT data buffer.</p>
+<p>The output data is in standard DNS-SD TXT data format. See RFC 6763 for details: <a href="https://tools.ietf.org/html/rfc6763#section-6">https://tools.ietf.org/html/rfc6763#section-6</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aTxtList</td><td>A TXT entry list. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">aTxtData</td><td>A TXT data buffer. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aTxtLength</td><td>As input, it is the length of the TXT data buffer; As output, it is the length of the TXT data written.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">OTBR_ERROR_NONE</td><td>Successfully write the TXT entry list. </td></tr>
+    <tr><td class="paramname">OTBR_ERROR_INVALID_ARGS</td><td>The input TXT data buffer cannot hold the TXT data. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0dc12f5b83dfd3f1eec5c2366ddf39c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc12f5b83dfd3f1eec5c2366ddf39c7">&#9670;&nbsp;</a></span>IsServiceTypeEqual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otbr::Mdns::Publisher::IsServiceTypeEqual </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>aFirstType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>aSecondType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function decides if two service types (names) are equal.</p>
+<p>Different implementations may or not append a dot ('.') to the service type (name) and we can not compare if two service type are equal with <code>strcmp</code>. This function ignores the trailing dot when comparing two service types.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFirstType</td><td>The first service type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSecondType</td><td>The second service type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>returns A boolean that indicates whether the two service types are equal. </p>
 
 </div>
 </div>
@@ -501,6 +688,94 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="../../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#a4b73e2444e12a0fd6d65a70f4bdc5077">otbr::Mdns::PublisherAvahi</a>, and <a class="el" href="../../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a5f76fb605b72de07301fa08817e423b8">otbr::Mdns::PublisherMDnsSd</a>.</p>
+
+</div>
+</div>
+<a id="a93201b8e7507597a0110cc5315112d5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93201b8e7507597a0110cc5315112d5d">&#9670;&nbsp;</a></span>SetPublishHostHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otbr::Mdns::Publisher::SetPublishHostHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a63b0143769df1e0c21e6304bf9a69ef0">PublishHostHandler</a>&#160;</td>
+          <td class="paramname"><em>aHandler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>aContext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method sets the handler for host publication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aHandler</td><td>A handler which will be called when a host publication is finished. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aContext</td><td>A user context which is associated to <code>aHandler</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9837d2cc6a4f8201d0fe69f00bbe72e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9837d2cc6a4f8201d0fe69f00bbe72e6">&#9670;&nbsp;</a></span>SetPublishServiceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otbr::Mdns::Publisher::SetPublishServiceHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a58c302643f9b2f3c28509a68b025ebc2">PublishServiceHandler</a>&#160;</td>
+          <td class="paramname"><em>aHandler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>aContext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method sets the handler for service publication.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aHandler</td><td>A handler which will be called when a service publication is finished. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aContext</td><td>A user context which is associated to <code>aHandler</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -733,6 +1008,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/mdns/<a class="el" href="../../de/d7c/mdns_8hpp_source.html">mdns.hpp</a></li>
+<li>src/mdns/<a class="el" href="../../da/ddf/mdns_8cpp.html">mdns.cpp</a></li>
 <li>src/mdns/<a class="el" href="../../d6/daf/mdns__avahi_8cpp.html">mdns_avahi.cpp</a></li>
 <li>src/mdns/<a class="el" href="../../d5/d69/mdns__mdnssd_8cpp.html">mdns_mdnssd.cpp</a></li>
 </ul>

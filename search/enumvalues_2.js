@@ -34,6 +34,7 @@ var searchData=
   ['ot_5ferror_5fsecurity',['OT_ERROR_SECURITY',['../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95ab9b91c1a0f1ba53e5b6cebb6af7b674d',1,'otbr::DBus']]],
   ['ot_5ferror_5funknown_5fneighbor',['OT_ERROR_UNKNOWN_NEIGHBOR',['../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95a5347d7da89927289986cd98f2742d4dc',1,'otbr::DBus']]],
   ['otbr_5ferror_5fdbus',['OTBR_ERROR_DBUS',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa64d15646223a2ceea9bfde5574f4ea42',1,'types.hpp']]],
+  ['otbr_5ferror_5fduplicated',['OTBR_ERROR_DUPLICATED',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa54a711b0e0b72121f06c98fecc00ba69',1,'types.hpp']]],
   ['otbr_5ferror_5ferrno',['OTBR_ERROR_ERRNO',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaaa40d3cebb126a37687ab4fbb2ec94785',1,'types.hpp']]],
   ['otbr_5ferror_5finvalid_5fargs',['OTBR_ERROR_INVALID_ARGS',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa0c78adc6972b7a7ad9904a998605cb9d',1,'types.hpp']]],
   ['otbr_5ferror_5fmdns',['OTBR_ERROR_MDNS',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aaa4d0b494d58398fb57e7b8fc875a8be77',1,'types.hpp']]],

@@ -3,6 +3,7 @@ var searchData=
   ['elementtype',['ElementType',['../d1/d8f/structotbr_1_1DBus_1_1ElementType.html',1,'otbr::DBus']]],
   ['emit',['Emit',['../dd/dcb/classotbr_1_1EventEmitter.html#ac16b1dd365337036053e4b7403199fff',1,'otbr::EventEmitter']]],
   ['enable',['Enable',['../d8/d58/classotbr_1_1BackboneRouter_1_1NdProxyManager.html#aaef7500d96485e4ea68a86764c50b8dc',1,'otbr::BackboneRouter::NdProxyManager']]],
+  ['encodetxtdata',['EncodeTxtData',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a0dbaef81e29bea6a262d41d901244ef7',1,'otbr::Mdns::Publisher']]],
   ['error_2ehpp',['error.hpp',['../d9/d99/error_8hpp.html',1,'']]],
   ['error2jsonstring',['Error2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#ac7838593530ed7935a0a370ff62ed9f6',1,'otbr::rest::Json']]],
   ['error_5fdbus',['ERROR_DBUS',['../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95a00eafd972d30f17032bf5145ca251bb3',1,'otbr::DBus']]],

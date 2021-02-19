@@ -33,6 +33,7 @@ var searchData=
   ['mmessageerrorrate',['mMessageErrorRate',['../db/d06/structotbr_1_1DBus_1_1ChildInfo.html#a05c911116e7656f845cfd06ff2abb10e',1,'otbr::DBus::ChildInfo::mMessageErrorRate()'],['../d2/d47/structotbr_1_1DBus_1_1NeighborInfo.html#ae46b67c5053024e0fb42cf66f48615b8',1,'otbr::DBus::NeighborInfo::mMessageErrorRate()']]],
   ['mmleframecounter',['mMleFrameCounter',['../d2/d47/structotbr_1_1DBus_1_1NeighborInfo.html#a9e4b9b4721a5f762c7ac74a337cf3411',1,'otbr::DBus::NeighborInfo']]],
   ['mname',['mName',['../d0/dee/structotbr_1_1Mdns_1_1Publisher_1_1TxtEntry.html#a1ece56a4c1dd8beef482064774b748fa',1,'otbr::Mdns::Publisher::TxtEntry']]],
+  ['mnamelength',['mNameLength',['../d0/dee/structotbr_1_1Mdns_1_1Publisher_1_1TxtEntry.html#ade9dfccde62daf1a3404ca059840836b',1,'otbr::Mdns::Publisher::TxtEntry']]],
   ['mnetworkdata',['mNetworkData',['../d1/d82/structotbr_1_1DBus_1_1LinkModeConfig.html#a4d76fd7e83e0ceae739889949d1e0598',1,'otbr::DBus::LinkModeConfig']]],
   ['mnetworkdataversion',['mNetworkDataVersion',['../db/d06/structotbr_1_1DBus_1_1ChildInfo.html#a1eff208aa7481453e31871710dbe9b46',1,'otbr::DBus::ChildInfo']]],
   ['mnetworkname',['mNetworkName',['../d2/da8/structotbr_1_1DBus_1_1ActiveScanResult.html#a171dd1c157602e90f16997a84c228f65',1,'otbr::DBus::ActiveScanResult']]],

@@ -10,6 +10,7 @@ var searchData=
   ['isenabled',['IsEnabled',['../d8/d58/classotbr_1_1BackboneRouter_1_1NdProxyManager.html#a44f189f2db9cd2d13a77aa0749f0a827',1,'otbr::BackboneRouter::NdProxyManager']]],
   ['ismulticast',['IsMulticast',['../d2/dfe/classotbr_1_1Ip6Address.html#a72f4ceeb43f1a642fc88aad229e81a4c',1,'otbr::Ip6Address']]],
   ['isresetrequested',['IsResetRequested',['../db/dae/group__border-router-ncp.html#ga7fc69ac2520487f7cd8d8a686c7e82ae',1,'otbr::Ncp::Controller::IsResetRequested()'],['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#a20b7d45e89b6344fe819a830bc9f7c9c',1,'otbr::Ncp::ControllerOpenThread::IsResetRequested()']]],
+  ['isservicetypeequal',['IsServiceTypeEqual',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a0dc12f5b83dfd3f1eec5c2366ddf39c7',1,'otbr::Mdns::Publisher']]],
   ['isstarted',['IsStarted',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a75cf59bf3d84ac98c79a29fb22054ec8',1,'otbr::Mdns::Publisher::IsStarted()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#a3621443d0205c646a0702adfc9ce5655',1,'otbr::Mdns::PublisherAvahi::IsStarted()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a4415a4f7d927ddbf82f17daba70475b4',1,'otbr::Mdns::PublisherMDnsSd::IsStarted()']]],
   ['isvalid',['IsValid',['../da/d3a/classotbr_1_1Ip6Prefix.html#a21a9c868856a4f23677821285bf35614',1,'otbr::Ip6Prefix']]]
 ];

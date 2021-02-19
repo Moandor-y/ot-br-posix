@@ -17,6 +17,8 @@ var searchData=
   ['setlinkmode',['SetLinkMode',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a1f14809fef202587753f30aee232c997',1,'otbr::DBus::ThreadApiDBus']]],
   ['setmeshlocalprefix',['SetMeshLocalPrefix',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#af72d801fdf5c209038d676516e1ffbab',1,'otbr::DBus::ThreadApiDBus']]],
   ['setmethod',['SetMethod',['../da/df0/classotbr_1_1rest_1_1Request.html#a46d2c0597196d558047c85ec6aa6d36f',1,'otbr::rest::Request']]],
+  ['setpublishhosthandler',['SetPublishHostHandler',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a93201b8e7507597a0110cc5315112d5d',1,'otbr::Mdns::Publisher']]],
+  ['setpublishservicehandler',['SetPublishServiceHandler',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a9837d2cc6a4f8201d0fe69f00bbe72e6',1,'otbr::Mdns::Publisher']]],
   ['setradioregion',['SetRadioRegion',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a0c143418162361a238a0647dc98a002f',1,'otbr::DBus::ThreadApiDBus']]],
   ['setreadcomplete',['SetReadComplete',['../da/df0/classotbr_1_1rest_1_1Request.html#a4cab6fde99c6b49f780415e558c0e349',1,'otbr::rest::Request']]],
   ['setresponscode',['SetResponsCode',['../d2/db0/classotbr_1_1rest_1_1Response.html#ac9313834a0fb7641c649083d35a73a37',1,'otbr::rest::Response']]],
