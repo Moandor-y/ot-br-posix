@@ -89,7 +89,6 @@ var searchData=
   ['otbrdump',['otbrDump',['../d0/da9/logging_8hpp.html#a4e9b1ae7e5d59c205377bd96221c9ea9',1,'logging.cpp']]],
   ['otbrerror',['otbrError',['../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa',1,'types.hpp']]],
   ['otbrerrorstring',['otbrErrorString',['../d0/da9/logging_8hpp.html#ada4d1801b5705ba2b957fd1802b8a984',1,'logging.cpp']]],
-  ['otbrerrortooterror',['OtbrErrorToOtError',['../dc/d53/common_2types_8hpp.html#a587af1f59ec4c482227be1f9ba88bfd3',1,'types.cpp']]],
   ['otbrlog',['otbrLog',['../d0/da9/logging_8hpp.html#a7b7dbf451e3c68eac8f0a7d09df427ef',1,'logging.cpp']]],
   ['otbrlogdeinit',['otbrLogDeinit',['../d0/da9/logging_8hpp.html#a5a2bf385c625fa5e9beaba21d26326fe',1,'logging.cpp']]],
   ['otbrlogenablesyslog',['otbrLogEnableSyslog',['../d0/da9/logging_8hpp.html#a762b4410fc095825139d18166e8a64e6',1,'logging.hpp']]],
