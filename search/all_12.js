@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['task',['Task',['../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef',1,'otbr::TaskRunner']]],
+  ['task_5frunner_2ecpp',['task_runner.cpp',['../d3/d7f/task__runner_8cpp.html',1,'']]],
+  ['task_5frunner_2ehpp',['task_runner.hpp',['../df/db8/task__runner_8hpp.html',1,'']]],
+  ['taskrunner',['TaskRunner',['../dd/d62/classotbr_1_1TaskRunner.html',1,'otbr::TaskRunner'],['../dd/d62/classotbr_1_1TaskRunner.html#a87019d8e1f65bd804c4ff27ad5a4e301',1,'otbr::TaskRunner::TaskRunner()']]],
   ['thread_5fapi_5fdbus_2ehpp',['thread_api_dbus.hpp',['../d6/dde/thread__api__dbus_8hpp.html',1,'']]],
   ['thread_5fhelper_2ehpp',['thread_helper.hpp',['../dc/d3c/thread__helper_8hpp.html',1,'']]],
   ['threadapidbus',['ThreadApiDBus',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html',1,'otbr::DBus::ThreadApiDBus'],['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#ada9e759317e64df44013d84af8507936',1,'otbr::DBus::ThreadApiDBus::ThreadApiDBus(DBusConnection *aConnection)'],['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a0de7634cb839360fd051a4ab586378bb',1,'otbr::DBus::ThreadApiDBus::ThreadApiDBus(DBusConnection *aConnection, const std::string &amp;aInterfaceName)']]],

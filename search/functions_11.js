@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['taskrunner',['TaskRunner',['../dd/d62/classotbr_1_1TaskRunner.html#a87019d8e1f65bd804c4ff27ad5a4e301',1,'otbr::TaskRunner']]],
   ['threadapidbus',['ThreadApiDBus',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#ada9e759317e64df44013d84af8507936',1,'otbr::DBus::ThreadApiDBus::ThreadApiDBus(DBusConnection *aConnection)'],['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a0de7634cb839360fd051a4ab586378bb',1,'otbr::DBus::ThreadApiDBus::ThreadApiDBus(DBusConnection *aConnection, const std::string &amp;aInterfaceName)']]],
   ['threadhelper',['ThreadHelper',['../d4/d44/classotbr_1_1agent_1_1ThreadHelper.html#a52b4fbae1c0d94e3c3bd8afdca6eeaf1',1,'otbr::agent::ThreadHelper']]],
   ['tolocator',['ToLocator',['../d2/dfe/classotbr_1_1Ip6Address.html#ab645c08692523c186f2f1234671da3bc',1,'otbr::Ip6Address']]],
